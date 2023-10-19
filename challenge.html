@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css.map">
+</head>
+
+<body class=" bg-primary bg-gradient bg-opacity-75" style="">
+    <div class="container ">
+        <div class="row ">
+            <p class="text-center text-uppercase">Weather template</p>
+
+        </div>
+        <div class="row ">
+            <div class="col bg-primary-subtle
+
+            rounded">
+                <p class="text-uppercase text-center">local weether report</p>
+                <hr class="bg-white border-2 border-top border-danger">
+                </hr>
+                <div class="row text-center">
+                    <div class="col">
+                        <img class="img" src="Forecast/sun.png" alt="">
+                        
+
+
+                    </div>
+                    <div class="col">
+                        <h5 class="text-uppercase">sunday</h5>
+                        <span class="text-uppercase">sunny</span>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col mt-4">
+                        <span>14 KM/H SW</span>
+                    </div>
+                    <div class="col">
+                        <h5 class="text-uppercase ">22</h5>
+                        <span class="text-uppercase">71.°F</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col bg-primary-subtle offset-1 rounded ">
+                <p class="text-uppercase text-center">Sea forecast report</p>
+                <hr class="bg-white border-2 border-top border-danger">
+                </hr>
+                <span class="text-uppercase ">Wind
+                    spead(knots)..................................................................................................................13</span>
+                <br>
+                <span class="text-uppercase ">Wind
+                    GUSTS(knots)..................................................................................................................14</span>
+                <span class="text-uppercase ">Wind
+
+                    direction..........................................................................................................................SW</span>
+                <span class="text-uppercase ">wave(m)
+                    ..........................................................................................................................................2.2</span>
+
+                <span class="text-uppercase ">wave
+                    Period(s)............................................................................................................................12</span>
+
+
+                <span class="text-uppercase ">wave
+                    Direction..........................................................................................................................SW</span>
+                <span class="text-uppercase ">Temperature(°C)
+                    ........................................................................................................................23</span>
+                <span class="text-uppercase ">Cloud
+                    cover.................................................................................................................................. -</span>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="d-flex mt-3 bg-primary-subtle container rounded bg-opacity-50  ">
+        <div class="ms-5 col"
+            style="border-right: 2px solid white; padding-top: 10px;margin-top: 20px;margin-bottom: 20px;">
+            <span class="ms-3">Monday</span><span class="vr"></span>
+            <br>
+            <div style="filter: drop-shadow(2px 2px white);">
+                <img class="img" src="Forecast/SunCloud.png" alt="">
+
+            </div>
+            <h5 class="text-uppercase ms-3 ">22 °C</h5>
+
+            <span class="text-uppercase ms-3">71.°F</span>
+
+        </div>
+        <div class="ms-5 col"
+            style="border-right: 2px solid white; padding-top: 10px;margin-top: 20px;margin-bottom: 20px;">
+            <span class="ms-3 text-uppercase">Tuesday</span><span class="vr"></span>
+            <br>
+            <div style="filter: drop-shadow(2px 2px white);">
+                <img class="img" src="Forecast/SunCloud.png" alt="">
+
+            </div>
+            <h5 class="text-uppercase ms-3 ">22 °C</h5>
+
+            <span class="text-uppercase ms-3">71.°F</span>
+
+        </div>
+        <div class="ms-5 col"
+            style="border-right: 2px solid white; padding-top: 10px;margin-top: 20px;margin-bottom: 20px;">
+            <span class="ms-3 text-uppercase">Wedensday</span><span class="vr"></span>
+            <br>
+            <div style="filter: drop-shadow(2px 2px white);">
+                <img class="img" src="Forecast/SunCloud.png" alt="">
+
+            </div>
+            <h5 class="text-uppercase ms-3 ">22 °C</h5>
+
+            <span class="text-uppercase ms-3">71.°F</span>
+
+        </div>
+        <div class="ms-5 col"
+            style="border-right: 2px solid white; padding-top: 10px;margin-top: 20px;margin-bottom: 20px;">
+            <span class="ms-3 text-uppercase">Thursday</span><span class="vr"></span>
+            <br>
+            <div style="filter: drop-shadow(2px 2px white);">
+                <img class="img" src="Forecast/SunCloud.png" alt="">
+
+            </div>
+            <h5 class="text-uppercase ms-3 ">22 °C</h5>
+
+            <span class="text-uppercase ms-3">71.°F</span>
+
+        </div>
+        <div class="ms-5 col" style=" padding-top: 10px;margin-top: 20px;margin-bottom: 20px;">
+            <span class="ms-3 text-uppercase">Friday</span><span class="vr"></span>
+            <br>
+            <div style="filter: drop-shadow(2px 2px white);">
+                <img class="img" src="Forecast/SunCloud.png" alt="">
+
+            </div>
+            <h5 class="text-uppercase ms-3 ">22 °C</h5>
+
+            <span class="text-uppercase ms-3">71.°F</span>
+
+        </div>
+      
+
+    </div>
+    <div class="row text-center mt-3">
+
+        <p class="text-uppercase">Designer by &copy; abdulrahman Bajaman</p>
+
+    </div>
+
+    <script>
+        var img = document.getElementsByTagName("img");
+        // var obj = ["Forecast/sun.png", "Forecast/Cloud.png", "Forecast/rain.png"]
+        console.log(img);
+        // img.src = Math.floor(Math.random() * obj.length);
+        // console.log(Math.floor(Math.random() * obj.length))
+        // console.log(img.src, obj[img.src]);
+
+        const obj = ["Forecast/sun.png", "Forecast/Cloud.png", "Forecast/rain.png", "Forecast/rain.png", "Forecast/rain.png", "Forecast/SunCloud.png", "Forecast/RainThunder.png"];
+
+        for (let i = 0; i < img.length; i++) {
+            var x = Math.floor(Math.random() * obj.length);
+            // console.log("this is img"+x, months[x]);
+            img[i].src = obj[x];
+        }
+
+
+    </script>
+
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
